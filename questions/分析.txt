@@ -1,0 +1,15 @@
+1.注册
+2.登录
+3.显示列表
+4.提问
+5.回答
+6.个人资料（包含上传头像）
+
+https://github.com/expressjs/cookie-parser
+
+bodyParser
+
+multer
+表单中enctype="multipart/form-data"的意思，是设置表单的MIME编码。
+默认情况，enctype的编码格式是application/x-www-form-urlencoded，不能用于文件上传；
+只有使用了multipart/form-data，才能完整的传递文件数据，进行下面的操作.
